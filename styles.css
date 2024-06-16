@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+#container {
+  display: flex; /* Enable Flexbox layout for squares */
+  flex-wrap: wrap; /* Allow squares to wrap onto multiple lines */
+  border: 1px solid black;
+  width: 960px; /* Adjust width as needed */
+  height: 960px; /* Adjust height as needed */
+  overflow: hidden; /* Clip content that overflows */
+}
+
+.square {
+  border: 1px solid rgb(226, 0, 0); /* Add border for visibility */
+  /* Adjust other styles for squares as needed (e.g., background-color) */
+}
